@@ -5,7 +5,6 @@ from bookstore import app
 
 swagger = Swagger(app)
 
-DATABASE_PASSWORD = "admin123"
 
 
 def load_books():
